@@ -45,5 +45,12 @@ public class locators2 {
         System.out.println(driver.getTitle());
 
         System.out.println("UPDATE");
+        System.out.println("update1");
+        String s = "dg";
+        String s1 = "sf";
+
+
+
+
     }
 }
