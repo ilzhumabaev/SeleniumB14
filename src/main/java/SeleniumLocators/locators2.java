@@ -44,6 +44,6 @@ public class locators2 {
         restApi.click();
         System.out.println(driver.getTitle());
 
-
+        System.out.println("UPDATE");
     }
 }
