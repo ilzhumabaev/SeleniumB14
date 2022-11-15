@@ -11,7 +11,7 @@ import java.time.Duration;
 public class CSSLocator {
     public static void main(String[] args) {
 
-        System.setProperty("webdriver.chrome","chromedriver");
+        System.setProperty("webdriver.chrome","chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
